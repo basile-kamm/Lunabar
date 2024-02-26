@@ -16,6 +16,13 @@ header {
   position: fixed;
   width: 100%;
   z-index: 3;
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
+}
+
+.burger-container {
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
 }
 
 .navbar-logo {

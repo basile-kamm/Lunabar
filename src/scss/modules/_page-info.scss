@@ -1,0 +1,37 @@
+.page-info-text {
+  font-size: 16px;
+}
+
+.page-info-img {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.page-info-title {
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.page-info-green {
+  background: var(--light-green);
+  color: var(--dark);
+  margin-top: 40px;
+}
+
+.page-info-green .page-info-img {
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .page-info-text {
+    font-size: 23px;
+  }
+
+  .page-info-img {
+    margin-top: 0;
+  }
+}
