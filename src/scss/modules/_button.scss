@@ -1,0 +1,30 @@
+a.button {
+  background: var(--light-blue);
+  padding: 10px 20px 5px;
+  border: 3px var(--light) solid;
+  border-radius: 15px;
+  text-decoration: dashed;
+  color: var(--light);
+  margin-top: -5px;
+  margin-left: -5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  font-family: "nickel-gothic-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "slnt" 0;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+a.button.big {
+  font-size: 24px;
+  padding: 15px 30px 10px;
+}
+
+a.button:hover {
+  color: var(--light-blue);
+  background: var(--light);
+  border: 3px var(--light-blue) solid;
+}
